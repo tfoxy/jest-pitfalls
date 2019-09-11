@@ -1,0 +1,29 @@
+{
+  "name": "jest-pitfalls",
+  "private": true,
+  "scripts": {
+    "mock-esm:test": "jest -c ./mock-esm/jest.config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfoxy/jest-pitfalls.git"
+  },
+  "author": "Tomás Fox",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tfoxy/jest-pitfalls/issues"
+  },
+  "homepage": "https://github.com/tfoxy/jest-pitfalls",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.2.0",
+    "@typescript-eslint/parser": "^2.2.0",
+    "acorn": "^7.0.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.3"
+  }
+}
